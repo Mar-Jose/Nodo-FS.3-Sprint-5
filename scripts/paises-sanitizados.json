@@ -1,0 +1,344 @@
+{
+  "paises": [
+    {
+      "nombre": "República de Guatemala",
+      "capital": [
+        "Guatemala City"
+      ],
+      "borders": [
+        "BLZ",
+        "SLV",
+        "HND",
+        "MEX"
+      ],
+      "area": 108889,
+      "population": 18079810,
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "Estados Unidos Mexicanos",
+      "capital": [
+        "Mexico City"
+      ],
+      "borders": [
+        "BLZ",
+        "GTM",
+        "USA"
+      ],
+      "area": 1964375,
+      "population": 130575786,
+      "timezones": [
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "Estado Plurinacional de Bolivia",
+      "capital": [
+        "Sucre"
+      ],
+      "borders": [
+        "ARG",
+        "BRA",
+        "CHL",
+        "PRY",
+        "PER"
+      ],
+      "area": 1098581,
+      "population": 11365333,
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Chile",
+      "capital": [
+        "Santiago"
+      ],
+      "borders": [
+        "ARG",
+        "BOL",
+        "PER"
+      ],
+      "area": 756102,
+      "population": 20206953,
+      "timezones": [
+        "UTC-06:00",
+        "UTC-04:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República del Ecuador",
+      "capital": [
+        "Quito"
+      ],
+      "borders": [
+        "COL",
+        "PER"
+      ],
+      "area": 276841,
+      "population": 18103660,
+      "timezones": [
+        "UTC-06:00",
+        "UTC-05:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Paraguay",
+      "capital": [
+        "Asunción"
+      ],
+      "borders": [
+        "ARG",
+        "BOL",
+        "BRA"
+      ],
+      "area": 406752,
+      "population": 6109644,
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Perú",
+      "capital": [
+        "Lima"
+      ],
+      "borders": [
+        "BOL",
+        "BRA",
+        "CHL",
+        "COL",
+        "ECU"
+      ],
+      "area": 1285216,
+      "population": 34350244,
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "Asociado de Puerto Rico",
+      "capital": [
+        "San Juan"
+      ],
+      "borders": [],
+      "area": 8870,
+      "population": 3203295,
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República Argentina",
+      "capital": [
+        "Buenos Aires"
+      ],
+      "borders": [
+        "BOL",
+        "BRA",
+        "CHL",
+        "PRY",
+        "URY"
+      ],
+      "area": 2780400,
+      "population": 46735004,
+      "timezones": [
+        "UTC-03:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Panamá",
+      "capital": [
+        "Panama City"
+      ],
+      "borders": [
+        "COL",
+        "CRI"
+      ],
+      "area": 75417,
+      "population": 4064780,
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Nicaragua",
+      "capital": [
+        "Managua"
+      ],
+      "borders": [
+        "CRI",
+        "HND"
+      ],
+      "area": 130373,
+      "population": 6803886,
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República Dominicana",
+      "capital": [
+        "Santo Domingo"
+      ],
+      "borders": [
+        "HTI"
+      ],
+      "area": 48671,
+      "population": 10771504,
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Colombia",
+      "capital": [
+        "Bogotá"
+      ],
+      "borders": [
+        "BRA",
+        "ECU",
+        "PAN",
+        "PER",
+        "VEN"
+      ],
+      "area": 1141748,
+      "population": 53057212,
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Costa Rica",
+      "capital": [
+        "San José"
+      ],
+      "borders": [
+        "NIC",
+        "PAN"
+      ],
+      "area": 51100,
+      "population": 5309625,
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de El Salvador",
+      "capital": [
+        "San Salvador"
+      ],
+      "borders": [
+        "GTM",
+        "HND"
+      ],
+      "area": 21041,
+      "population": 6029976,
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "Belice",
+      "capital": [
+        "Belmopan"
+      ],
+      "borders": [
+        "GTM",
+        "MEX"
+      ],
+      "area": 22966,
+      "population": 417634,
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República Oriental del Uruguay",
+      "capital": [
+        "Montevideo"
+      ],
+      "borders": [
+        "ARG",
+        "BRA"
+      ],
+      "area": 181034,
+      "population": 3499451,
+      "timezones": [
+        "UTC-03:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República Bolivariana de Venezuela",
+      "capital": [
+        "Caracas"
+      ],
+      "borders": [
+        "BRA",
+        "COL",
+        "GUY"
+      ],
+      "area": 916445,
+      "population": 28517000,
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Cuba",
+      "capital": [
+        "Havana"
+      ],
+      "borders": [],
+      "area": 109884,
+      "population": 9748007,
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "creador": "MARIA"
+    },
+    {
+      "nombre": "República de Honduras",
+      "capital": [
+        "Tegucigalpa"
+      ],
+      "borders": [
+        "GTM",
+        "SLV",
+        "NIC"
+      ],
+      "area": 112492,
+      "population": 9892632,
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "creador": "MARIA"
+    }
+  ],
+  "totales": {
+    "population": 426841436,
+    "area": 11497197
+  }
+}
