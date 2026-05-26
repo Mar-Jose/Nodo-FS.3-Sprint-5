@@ -16,31 +16,31 @@ Tiene validaciones backend.
 
 Tecnologías usadas:
 
-*Node.js. 
-
-*MongoDB.
-
-*Mongoose.
-
-*EJS.
-
-*CSS.
-
-*JavaScript.
-
-*SweetAlert2. 
-
-*express.
-
-*express-ejs-layouts.
-
-*express-validator.
-
-*method-override.
-
-*dotenv.
-
-*node-fetch.
+                *Node.js. 
+                
+                *MongoDB.
+                
+                *Mongoose.
+                
+                *EJS.
+                
+                *CSS.
+                
+                *JavaScript.
+                
+                *SweetAlert2. 
+                
+                *express.
+                
+                *express-ejs-layouts.
+                
+                *express-validator.
+                
+                *method-override.
+                
+                *dotenv.
+                
+                *node-fetch.
 
 
 Pasos de ejecución:
@@ -51,31 +51,31 @@ Instalar el proyecto:
 
 Instalar dependencias: 
 
-*mongoose.
-
-*express.
-
-*express-ejs-layouts.
-
-*express-validator.
-
-*method-override.
-
-*dotenv.
-
-*node-fetch.
+                      *mongoose.
+                      
+                      *express.
+                      
+                      *express-ejs-layouts.
+                      
+                      *express-validator.
+                      
+                      *method-override.
+                      
+                      *dotenv.
+                      
+                      *node-fetch.
 
 Ejecutar el proyecto:
  
-*Levantar el servidor: node app.mjs.
-
-*Abrir el navegador: http://localhost:3000/api/paisesA.
+                     *Levantar el servidor: node app.mjs.
+                     
+                     *Abrir el navegador: http://localhost:3000/api/paisesA.
 
 Consideraciones especiales:
 
 Las variables de entorno que se utilizaron en las conexiones: 
 
-*puerto: port.
-
-*conexión a la base de datos: mongoDB.
+          *puerto: port.
+          
+          *conexión a la base de datos: mongoDB.
 
