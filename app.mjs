@@ -20,7 +20,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 //Configura EJS como el directorio de vistas en Extress. Sprint 3. tp 3.
 // En el ejemplo práctico: app.set('views', path.join(import.meta.dirname, 'ejs.layout', 'views'));
-app.set('views', path.join(__dirname, 'layout', 'views'));
+app.set('views', path.join(__dirname, 'views'));
 
 app.use(methodOverride('_method'));
 

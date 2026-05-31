@@ -4,7 +4,7 @@ import { writeFile } from "fs/promises";
 async function generarPaisesSanitizados() {
   try {
     // Consulta la API de países de América.
-    const response = await fetch("https://restcountries.com/v3.1/region/america");
+    const response = await fetch ("https://restcountries.com/v3.1/region/america");
 
     // Convierte la respuesta HTTP a JSON.
     const data = await response.json();
@@ -16,7 +16,7 @@ async function generarPaisesSanitizados() {
       // Transforma cada país al formato sanitizado requerido.
       .map(pais => ({
         // Usa la traducción oficial al español; si no existe, usa el nombre oficial general.
-        nombre: pais.translations?.spa?.official || pais.name?.official,
+        nombreOfficial: pais.translations?.spa?.official || pais.name?.official,
         // Guarda la capital o un arreglo vacío si no viene informada.
         capital: pais.capital || [],
         // Guarda los países limitrofes o un array vacío si el país no tiene/declara límites.
@@ -29,7 +29,7 @@ async function generarPaisesSanitizados() {
         // Guarda las zonas horarias o un arreglo vacío si faltan.
         timezones: pais.timezones || [],
         // Agrega un campo fijo con el nombre del creador.
-        creador: "MARIA"
+        creador: "MARIA JOSE"
       }));
 
     // Suma la población total de todos los países sanitizados.
@@ -44,9 +44,7 @@ async function generarPaisesSanitizados() {
         // Incluye la suma total de población.
         population: totalPopulation,
         // Incluye la suma total de área.
-        area: totalArea,
-        // Incluye el promedio del índice Gini.
-       // promedioGini: avgGini
+        area: totalArea
       }
     };
 

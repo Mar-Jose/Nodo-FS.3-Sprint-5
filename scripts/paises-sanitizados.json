@@ -1,7 +1,7 @@
 {
   "paises": [
     {
-      "nombre": "República de Guatemala",
+      "nombreOfficial": "República de Guatemala",
       "capital": [
         "Guatemala City"
       ],
@@ -16,10 +16,10 @@
       "timezones": [
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "Estados Unidos Mexicanos",
+      "nombreOfficial": "Estados Unidos Mexicanos",
       "capital": [
         "Mexico City"
       ],
@@ -35,10 +35,10 @@
         "UTC-07:00",
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "Estado Plurinacional de Bolivia",
+      "nombreOfficial": "Estado Plurinacional de Bolivia",
       "capital": [
         "Sucre"
       ],
@@ -54,10 +54,10 @@
       "timezones": [
         "UTC-04:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Chile",
+      "nombreOfficial": "República de Chile",
       "capital": [
         "Santiago"
       ],
@@ -72,10 +72,10 @@
         "UTC-06:00",
         "UTC-04:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República del Ecuador",
+      "nombreOfficial": "República del Ecuador",
       "capital": [
         "Quito"
       ],
@@ -89,10 +89,10 @@
         "UTC-06:00",
         "UTC-05:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Paraguay",
+      "nombreOfficial": "República de Paraguay",
       "capital": [
         "Asunción"
       ],
@@ -106,10 +106,10 @@
       "timezones": [
         "UTC-04:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Perú",
+      "nombreOfficial": "República de Perú",
       "capital": [
         "Lima"
       ],
@@ -125,10 +125,10 @@
       "timezones": [
         "UTC-05:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "Asociado de Puerto Rico",
+      "nombreOfficial": "Asociado de Puerto Rico",
       "capital": [
         "San Juan"
       ],
@@ -138,10 +138,10 @@
       "timezones": [
         "UTC-04:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República Argentina",
+      "nombreOfficial": "República Argentina",
       "capital": [
         "Buenos Aires"
       ],
@@ -157,10 +157,10 @@
       "timezones": [
         "UTC-03:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Panamá",
+      "nombreOfficial": "República de Panamá",
       "capital": [
         "Panama City"
       ],
@@ -173,10 +173,10 @@
       "timezones": [
         "UTC-05:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Nicaragua",
+      "nombreOfficial": "República de Nicaragua",
       "capital": [
         "Managua"
       ],
@@ -189,10 +189,10 @@
       "timezones": [
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República Dominicana",
+      "nombreOfficial": "República Dominicana",
       "capital": [
         "Santo Domingo"
       ],
@@ -204,10 +204,10 @@
       "timezones": [
         "UTC-04:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Colombia",
+      "nombreOfficial": "República de Colombia",
       "capital": [
         "Bogotá"
       ],
@@ -223,10 +223,10 @@
       "timezones": [
         "UTC-05:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Costa Rica",
+      "nombreOfficial": "República de Costa Rica",
       "capital": [
         "San José"
       ],
@@ -239,10 +239,10 @@
       "timezones": [
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de El Salvador",
+      "nombreOfficial": "República de El Salvador",
       "capital": [
         "San Salvador"
       ],
@@ -255,10 +255,10 @@
       "timezones": [
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "Belice",
+      "nombreOfficial": "Belice",
       "capital": [
         "Belmopan"
       ],
@@ -271,10 +271,10 @@
       "timezones": [
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República Oriental del Uruguay",
+      "nombreOfficial": "República Oriental del Uruguay",
       "capital": [
         "Montevideo"
       ],
@@ -287,10 +287,10 @@
       "timezones": [
         "UTC-03:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República Bolivariana de Venezuela",
+      "nombreOfficial": "República Bolivariana de Venezuela",
       "capital": [
         "Caracas"
       ],
@@ -304,10 +304,10 @@
       "timezones": [
         "UTC-04:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Cuba",
+      "nombreOfficial": "República de Cuba",
       "capital": [
         "Havana"
       ],
@@ -317,10 +317,10 @@
       "timezones": [
         "UTC-05:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     },
     {
-      "nombre": "República de Honduras",
+      "nombreOfficial": "República de Honduras",
       "capital": [
         "Tegucigalpa"
       ],
@@ -334,7 +334,7 @@
       "timezones": [
         "UTC-06:00"
       ],
-      "creador": "MARIA"
+      "creador": "MARIA JOSE"
     }
   ],
   "totales": {

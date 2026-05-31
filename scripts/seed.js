@@ -8,8 +8,9 @@ export async function guardarPaisesSanitizados() {
   const paisesSanitizados = data
     .filter(pais => pais.languages && pais.languages.spa)
     .map(pais => ({
-      nombre: pais.translations?.spa?.official || pais.name?.official,
+      nombreOfficial: pais.translations?.spa?.official || pais.name?.official,
       capital: pais.capital || [],
+      languages: Object.values(pais.languages || {}),
       borders: pais.borders || [],
       area: pais.area || 0,
       population: pais.population || 0,
@@ -17,7 +18,8 @@ export async function guardarPaisesSanitizados() {
       creador: "MARIA JOSE"
     }));
 
-  // Guardar en MongoDB
+  // Guardar en MongoDB:
+  await paisesA.deleteMany();
   await paisesA.insertMany(paisesSanitizados);
-  console.log("Paises sanitizados guardados en la DB");
+  console.log("Paises sanitizados guardados");
 }

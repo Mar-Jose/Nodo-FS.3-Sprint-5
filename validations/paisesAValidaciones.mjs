@@ -3,13 +3,7 @@
 import { body, param } from 'express-validator';
 
 export const paisesAValidations = [
-  body('nombrePais')
-    .trim()
-    .notEmpty()
-    .withMessage('El nombre del país es requerido')
-    .isLength({ min: 3, max: 90 })
-    .withMessage('El nombre del país debe tener entre 3 y 90 caracteres'),
-
+  
   body('nombreOfficial')
     .notEmpty()
     .withMessage('El nombre Oficial del país es requerido')
@@ -25,11 +19,11 @@ body('capital')
     .withMessage('cada elemento tiene entre 3 a 90 carácteres'),
 
 body('borders')
-    .notEmpty()
-    .withMessage('Los países limítrofes son requeridos')
-    .trim()
-    .isLength({ min: 3, max: 3 })
-    .withMessage('Los países limítrofes tienen un código de 3 letras mayúsculas'),
+  .isArray({ min: 1 })
+  .withMessage('Debe enviar al menos un país limítrofe'),
+body('borders.*')
+  .matches(/^[A-Z]{3}$/)
+  .withMessage('Cada código debe tener 3 letras mayúsculas'),
     
   body('area')
     .trim()

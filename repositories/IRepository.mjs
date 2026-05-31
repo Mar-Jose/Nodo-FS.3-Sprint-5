@@ -1,44 +1,28 @@
-class IRepository {
-    
-    obtenerDeApiP(){
-        throw new Error("El método 'obtenerDeApiP' debe ser implementado.");
-    }
-    importarDeApiP(){
-        throw new Error("El método 'importarDeApiP' debe ser implementado.");
-    }
-    obtenerTodos()
-    {
-        throw new Error ("Metodo 'obtenerTodos()' no implementado");
-    }
-    crearPaisesA(valor)
-    {
-        throw new Error ("Metodo 'crear()' no implementado");
+
+   class IRepository {
+
+    async getAll() {
+        throw new Error('Método getAll() no implementado');
     }
 
-    
+    async getById(id) {
+        throw new Error('Método getById() no implementado');
     }
 
-export default IRepository;
-    /*
+    async create(data) {
+        throw new Error('Método create() no implementado');
+    }
 
-    buscarPorAtributo(atributo,valor)
-    {
+    async update(id, data) {
+        throw new Error('Método update() no implementado');
+    }
+
+    async delete(id) {
+        throw new Error('Método delete() no implementado');
+    }
+    buscarPorAtributo(atributo,valor){
         throw new Error ("Metodo 'buscarPorAtributo()' no implementado");
     }
-    
-    // sprint 3.tp 1. cambiar$$$$$$$$$$$$$$$$$.
+   }
 
-      crearHeroe(valor)
-    {
-        throw new Error ("Metodo 'crear()' no implementado");
-    }
-    actualizarHeroe(id, valor)
-    {
-        throw new Error ("Metodo 'actualizarHeroe()' no implementado");
-    }
-    
-    eliminarHeroexNombre(nombre)
-    {
-        throw new Error ("Metodo 'eliminarHeroePorNombre()' no implementado");
-    } 
-    */
+export default IRepository;

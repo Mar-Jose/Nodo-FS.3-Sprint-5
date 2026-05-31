@@ -12,7 +12,7 @@
         <style>
                 body {
                     font-family: sans-serif;
-                    background-color: #83e4bc; 
+                    background-color: #57977f; 
                 }
                 .container {
                     max-width: 1200px;
@@ -81,20 +81,17 @@
                 border-radius: 10px;
                 margin: 10px; ">
 
-        <h3><%= PEc.nombrePais %></h3>
-        <p><strong>Nombre oficial:</strong> <%= PEc.nombreOfficial %></p>
-        <p><strong>Capital:</strong> <%= PEc.capital %></p>
-        <p><strong>Población:</strong> <%= PEc.population %></p>
-        <p><strong>Lenguajes:</strong> <%= PEc.lenguajes.join(', ') %></p>
+        <h3><%= PEc.nombreOfficial %></h3>      
+        <p><strong>Nombre oficial:</strong> <%= PEc.nombreOfficial %> </p>
+        <p><strong>Capital:</strong> <%= PEc.capital?.length? PEc.capital.join(', '): 'Sin capital' %> </p>
+  <!--  <p><strong>Idioma:</strong> <%= Array.isArray(PEc.languages)? PEc.languages.join(', '): 'vacio' %> </p> -->
+        <p><strong>Países limítrofes:</strong> <%= PEc.borders?.length? PEc.borders.join(', '): 'Sin fronteras' %></p>
         <p><strong>Área:</strong> <%= PEc.area %></p>
-        <p><strong>Países limítrofes:</strong> <%= PEc.borders.join(', ') %></p>
+        <p><strong>Población:</strong> <%= PEc.population %></p>
+        <p><strong>Zona horaria:</strong> <%= PEc.timezones %></p>
         <p><strong>Creador:</strong> <%= PEc.creador %></p>
 
-        <!--   VER MÁS  - genera conflicto en routes- comentado el endpoint en routes-
-        <a href="/api/heroes/<%= hero._id %>">Ver más</a>
-        <div class="hero-actions" style="margin-top: 10px;"> -->
-
-            <!-- Sprint 3. tp 3. Etapa 4. Requerimiento 5: BOTÓN EDITAR  -->
+            <!-- - BOTÓN EDITAR - -->
             <a href="/api/paisesA/editar/<%= PEc._id %>"
                style="background-color: #007bff; color: white; border: none; 
                       padding: 8px 12px; cursor: pointer; text-decoration: none; 
@@ -113,7 +110,7 @@
                     icon: 'success',
                     title: 'ok',
                     text: mensajes['<%= success %>'],
-                    timer: 2000,
+                    timer: 3000,
                     showConfirmButton: false
                 });
                 </script>
@@ -132,7 +129,7 @@
                     Eliminar
                 </button>
             </form>
-        </div>
+
     </article>
 
  <% }) %>
@@ -160,7 +157,7 @@ function confirmarEliminacion(PEc) {
                 title: 'Eliminado',
                 text: 'El país fue borrado exitosamente.',
                 icon: 'success',
-                timer: 1500,
+                timer: 3000,
                 showConfirmButton: false
             }).then(() => {
                 document.getElementById('form-' + PEc).submit();
